@@ -1,7 +1,7 @@
 const mercadopago = require("mercadopago");
 
 mercadopago.configure({
-  access_token: process.env.MP_ACCESS_TOKEN, // nunca coloque o token direto no código!
+  access_token: process.env.MP_ACCESS_TOKEN, 
 });
 
 module.exports = async (req, res) => {
