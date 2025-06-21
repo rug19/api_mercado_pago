@@ -1,7 +1,7 @@
 import { MercadoPagoConfig } from "mercadopago";
 
 const client = new MercadoPagoConfig({
-  accessToken: process.env.MERCADOPAGO_PUBLIC_KEY,
+  accessToken: process.env.MERCADOPAGO_ACCESS_TOKEN,
 });
 
 export default async function handler(req, res) {
